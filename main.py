@@ -81,4 +81,4 @@ def _error(error):
 
 # Start the HTTP server.
 logging.info('Starting HTTP server')
-bottle.run(host='0.0.0.0', quiet=True)
+bottle.run(host='0.0.0.0', quiet=True, port=80)
